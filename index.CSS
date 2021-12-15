@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+header.header {
+    background-color: rgb(126, 126, 126);
+}
+li.header-nav-item:hover {
+    background-color:rgb(167, 167, 167);
+    
+}
+h1.header-logo:hover {
+    background-color:rgb(163, 163, 163);
+    
+}
+/* フェードイン */
+div.main-ti-sub {
+opacity: 0;
+animation-name: fadein;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+animation-delay: 0.2s;
+color:rgb(73, 73, 73)
+} 
+@keyframes fadein {
+    0% {
+    opacity: 0;
+    }
+
+    100% {
+    opacity: 1;
+    }
+} 
+
+div.main-visual-profile {
+opacity: 0;
+animation-name: fadein;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation-delay: 0.5s;
+} 
+@keyframes fadein {
+    0% {
+    opacity: 0;
+    }
+
+    100% {
+    opacity: 1;
+    }
+} 
+
+
+/* div.main-ti-sub {
+    background-color: rgb(167, 167, 167);
+} */
