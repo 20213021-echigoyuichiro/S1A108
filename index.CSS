@@ -19,16 +19,34 @@ h1.header-logo:hover {
     border-color: rgb(224, 224, 224);
     border-style: dotted;
 }
+div.inner{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
 
 div.main-visual{
-    background-image: url(portfolio/img/profile.png)  ;
+    background-image: url(portfolio/img/profile_2.png)  ;
     background-size: cover;
 }
-div.main-visual-inner{
-    height: 100%;
-    width: 100%;
-    background:rgba(255, 255, 255, 0.7);
+
+p.main-visual-text{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: bold;
 }
+
+p.main-visual-title{
+    font-family: 'Tangerine', cursive;
+    font-weight: normal;
+}
+p.main-visual-subtitle{
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+}
+p.skill-text{
+    font-family: 'Noto Serif JP', serif;
+}
+
+
 
 /* フェードイン */
 div.main-ti-sub {
