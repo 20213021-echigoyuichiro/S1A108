@@ -111,6 +111,13 @@ li {
   margin-right: 20px;
 }
 
+.header-nav-item{
+  border-left: 1px solid #FFF;
+}
+.header-nav-item:last-of-type{
+  border-right: 1px solid #FFF;
+}
+
 .header-nav-item a {
   position: relative;
   font-size: 13px;
@@ -131,7 +138,7 @@ li {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: rgb(236, 236, 236);
 }
 
 .header-nav-item a:hover:after {
