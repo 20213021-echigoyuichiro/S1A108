@@ -23,10 +23,22 @@ div.inner{
     font-family: 'Noto Serif JP', serif;
     font-weight: bold;
 }
+/* div.works-inner{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
+div.skill-inner{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    
+} */
+
+
 
 div.main-visual{
     background-image: url(portfolio/img/profile_2.png)  ;
     background-size: cover;
+    background-position: center center;
 }
 
 p.main-visual-text{
@@ -89,3 +101,13 @@ div.works-list{
     background-color: rgb(167, 167, 167);
 } */
 
+section.skill{
+    background-image: url(portfolio/img/paint_bg.jpg);
+    background-size: cover;
+    
+}
+/* section.works{
+    background-image: url(portfolio/img/背景.jpg);
+    background-size: cover;
+} */
+    

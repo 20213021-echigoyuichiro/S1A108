@@ -102,21 +102,24 @@ li {
   color: #FFF;
 }
 
-.header-nav-list {
+.header-nav-list{
   display: flex;
   justify-content: space-between;
+  
 }
 
 .header-nav-item:not(:last-child) {
   margin-right: 20px;
 }
 
-.header-nav-item{
+/* .header-nav-item{
   border-left: 1px solid #FFF;
+  text-align: center;
+  flex: 0 1 22%;
 }
 .header-nav-item:last-of-type{
   border-right: 1px solid #FFF;
-}
+} */
 
 .header-nav-item a {
   position: relative;
